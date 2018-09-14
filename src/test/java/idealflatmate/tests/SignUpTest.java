@@ -7,9 +7,9 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class SignUpTest extends TestBase {
 
-    @Test (priority = 2)
-    //verifying site is ok
+    @Test (priority = 1)
 
+    //verifying site is ok
     public void siteIsLive() {
 
         verificationHelper.siteIsLive();
@@ -265,7 +265,7 @@ public class SignUpTest extends TestBase {
 
     }
 
-    @Test (priority = 2)
+    //@Test (priority = 2)
 
     public void signUpMatchingWithBlankFirstName() {
 
@@ -273,7 +273,7 @@ public class SignUpTest extends TestBase {
         matchingHelper.verifBlankName();
     }
 
-    @Test (priority = 2)
+    //@Test (priority = 2)
     public void SignUpMatchingWithRequiredFieldsRoom() {
         newDriverPage();
         matchingHelper.clickHomePageMatching();
