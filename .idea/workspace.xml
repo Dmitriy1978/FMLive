@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3455168-5e04-41d9-b58d-9bbca904f4d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/idealflatmate/tests/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/idealflatmate/tests/SignUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/idealflatmate/appmanager/VerificationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/idealflatmate/appmanager/VerificationHelper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,20 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignUpTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SignUpTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/idealflatmate/tests/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="275" column="6" selection-start-line="275" selection-start-column="6" selection-end-line="275" selection-end-column="6" />
+            <state relative-caret-position="264">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VerificationHelper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VerificationHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/idealflatmate/appmanager/VerificationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="313" column="108" selection-start-line="313" selection-start-column="108" selection-end-line="313" selection-end-column="108" />
+            <state relative-caret-position="327">
+              <caret line="314" column="77" selection-start-line="314" selection-start-column="77" selection-end-line="314" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -70,8 +70,8 @@
         <option value="$PROJECT_DIR$/src/test/java/idealflatmate/tests/AuthorizationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/idealflatmate/tests/AddListingTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/idealflatmate/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/idealflatmate/appmanager/VerificationHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/idealflatmate/tests/SignUpTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/idealflatmate/appmanager/VerificationHelper.java" />
       </list>
     </option>
   </component>
@@ -506,17 +506,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/idealflatmate/appmanager/VerificationHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/idealflatmate/tests/SignUpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="313" column="108" selection-start-line="313" selection-start-column="108" selection-end-line="313" selection-end-column="108" />
+        <state relative-caret-position="264">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/idealflatmate/tests/SignUpTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/idealflatmate/appmanager/VerificationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="275" column="6" selection-start-line="275" selection-start-column="6" selection-end-line="275" selection-end-column="6" />
+        <state relative-caret-position="327">
+          <caret line="314" column="77" selection-start-line="314" selection-start-column="77" selection-end-line="314" selection-end-column="77" />
         </state>
       </provider>
     </entry>

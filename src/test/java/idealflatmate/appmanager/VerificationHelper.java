@@ -312,6 +312,8 @@ public class VerificationHelper  {
 
     public void siteIsLive() {
         $(byXpath("//h1[@class='splash-title text-white text-center u_m60-top u_p60-top-sm']")).should(exist);
+        $(byXpath("//h2[@class='u_m0-top u_m10-bottom']")).shouldHave(text("Explore areas of London"));
+
 
     }
 }
