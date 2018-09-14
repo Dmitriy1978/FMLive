@@ -50,7 +50,7 @@ public class TestBase {
 
     }
 
-    @AfterMethod
+    //@AfterMethod
     public void goHomePage(){
         helperBase.toHomePage();
     }
@@ -59,6 +59,7 @@ public class TestBase {
     public void tearDown() {
         //screenshot("screenshotFail1");
         closeWebDriver();
+        //tearDown();
     }
 
 
