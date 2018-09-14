@@ -11,7 +11,7 @@ public class MessagesTest extends TestBase {
 
    public final MessageHelper messageHelper = new MessageHelper();
 
-    @Test (priority = 1)
+  //  @Test (priority = 1)
     public void readMessageByLandlordWithoutSubscription() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -22,7 +22,7 @@ public class MessagesTest extends TestBase {
         verificationHelper.verifyUpgradeButton();
         authorizationHelper.logoutFromApp();
     }
-    @Test (priority = 1)
+   // @Test (priority = 1)
     public void sendMessageByLandlordWithoutSubscriptionToFM() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -36,7 +36,7 @@ public class MessagesTest extends TestBase {
         sleep(5000);
     }
 
-    @Test (priority = 1)
+  //  @Test (priority = 1)
     public void sendMessageByLandlordWithSubscriptionToFM() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -49,7 +49,7 @@ public class MessagesTest extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test (priority = 1)
+  //  @Test (priority = 1)
     public void answerMessageFmWithoutSubscriptionToFM() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -63,7 +63,7 @@ public class MessagesTest extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test (priority = 2)
+   // @Test (priority = 2)
     public void answerMessageLandlordToPremiumFHWithoutSubscription() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -77,7 +77,7 @@ public class MessagesTest extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test (priority = 1)
+   // @Test (priority = 1)
     public void sendMessagePremiumFmToLandlordWithoutSubscriptionWithListingFromSearch() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -93,7 +93,7 @@ public class MessagesTest extends TestBase {
         verificationHelper.verifyTextMessage("Landlord Answer to Prem FM");
         authorizationHelper.logoutFromApp();
     }
-    @Test (priority = 1)
+  //  @Test (priority = 1)
     public void sendMessageFmWithoutSubscriptionToLandlordWithoutSubscriptionWithListingFromListing() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -111,7 +111,7 @@ public class MessagesTest extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test (priority = 1)
+ //   @Test (priority = 1)
     public void sendMessageFmWithoutSubscriptionToLandlordWithoutSubscriptionWithListingFromFMpage() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();

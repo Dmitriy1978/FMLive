@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 public class SearchPropertiesPageTests extends TestBase{
 
 
-    @Test(priority = 1)
+    //@Test(priority = 1)
     public void propertySearchByDropDown() {
 
         authorizationHelper.selectAllPropertyInMenu();
@@ -22,7 +22,7 @@ public class SearchPropertiesPageTests extends TestBase{
 
     }
 
-    @Test(priority = 2)
+    //@Test(priority = 2)
     public void searchPagination() {
 
         authorizationHelper.goToPropertyPage();
@@ -39,7 +39,7 @@ public class SearchPropertiesPageTests extends TestBase{
 
     }
 
-    @Test(priority = 3)
+   // @Test(priority = 3)
     public void searchZone1Pagination() {
 
         authorizationHelper.goToPropertyPage();
@@ -49,7 +49,7 @@ public class SearchPropertiesPageTests extends TestBase{
 
     }
 
-    @Test(priority = 4)
+    //@Test(priority = 4)
     public void searchEastLDNPagination() {
 
         authorizationHelper.goToPropertyPage();
@@ -59,7 +59,7 @@ public class SearchPropertiesPageTests extends TestBase{
 
     }
 
-    @Test(priority = 4)
+   // @Test(priority = 4)
     public void applyFilters() {
 
         authorizationHelper.goToPropertyPage();
@@ -68,7 +68,7 @@ public class SearchPropertiesPageTests extends TestBase{
         searchHelper.active3Fiters(3,"Budget Max: 2500 £ ", "Search Radius: 1 miles ", "Available From:");
 
     }
-    @Test(priority = 4)
+    //@Test(priority = 4)
     public void applyAdvancedFiltersDefault() {
 
         authorizationHelper.goToPropertyPage();
@@ -80,7 +80,7 @@ public class SearchPropertiesPageTests extends TestBase{
 
     }
 
-    @Test(priority = 4)
+   // @Test(priority = 4)
     public void sortListingWith2Rooms() {
 
         authorizationHelper.goToPropertyPage();
@@ -92,7 +92,7 @@ public class SearchPropertiesPageTests extends TestBase{
 
     }
 
-    @Test(priority = 4)
+   // @Test(priority = 4)
     public void sortListingByBudget() {
 
         authorizationHelper.goToPropertyPage();

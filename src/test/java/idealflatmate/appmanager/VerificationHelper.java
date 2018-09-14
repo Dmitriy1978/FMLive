@@ -309,5 +309,10 @@ public class VerificationHelper  {
         $(byXpath("//div[@class='col-xs-12 col-sm-4 u_m20-bottom u_b-top-xs u_p30-top-xs']")).shouldHave(text("Flatmate type:"));
 
     }
+
+    public void siteIsLive() {
+        $(byXpath("//h1[@class='splash-title text-white text-center u_m60-top u_p60-top-sm']")).should(exist);
+
+    }
 }
 

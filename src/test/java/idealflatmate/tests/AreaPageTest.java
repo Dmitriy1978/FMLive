@@ -4,13 +4,13 @@ import org.testng.annotations.Test;
 
 public class AreaPageTest extends TestBase {
 
-    @Test
+   // @Test
     public void testAreaFirstFeaturedHomePageHeader() {
         areaPageHelper.clickArea();
         areaPageHelper.clickHeaderItem();
 
     }
-    @Test
+   // @Test
     public void testAreaFirstFeaturedLinkMap() {
         newDriverPage();
         areaPageHelper.clickArea();
@@ -18,14 +18,14 @@ public class AreaPageTest extends TestBase {
 
 
     }
-    @Test
+   // @Test
     public void testAreaFirstFeaturedLinkArea() {
         newDriverPage();
         areaPageHelper.clickArea();
         areaPageHelper.checklinkNearbyAreas();
 
     }
-    @Test
+   // @Test
     public void testAreaFirstFeaturedLinkArea1() {
         newDriverPage();
         areaPageHelper.clickArea();
@@ -33,14 +33,14 @@ public class AreaPageTest extends TestBase {
 
     }
 
-    @Test
+    //@Test
     public void testAreaFirstFeaturedLinkFH() {
         newDriverPage();
         areaPageHelper.clickArea();
         areaPageHelper.checklinkFH();
 
     }
-    @Test
+   // @Test
     public void testNextAreaFirstFeaturedLinkFooter() {
         newDriverPage();
         areaPageHelper.clickArea();

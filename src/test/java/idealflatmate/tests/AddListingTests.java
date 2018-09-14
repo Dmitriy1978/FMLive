@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 
 public class AddListingTests extends TestBase {
 
-    @Test (priority = 1)
+  //  @Test (priority = 1)
     public void TestSuccessfulLoginStartListing() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -21,7 +21,7 @@ public class AddListingTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test (priority = 2)
+   // @Test (priority = 2)
     public void TestSignUpSuccessfulPropertyAdding() {
         newDriverPage();
         paymentsHelper.addPropertyHelper.pressAddYourListingNotLoggedUser();
@@ -56,7 +56,7 @@ public class AddListingTests extends TestBase {
         verificationHelper.verificationUserNoNameOnHomePage("Ronald");
     }
 
-    @Test (priority = 3)
+  //  @Test (priority = 3)
     public void TestSuccessfulPropertyAddingWithAllFields() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -106,7 +106,7 @@ public class AddListingTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test (priority = 1)
+ //   @Test (priority = 1)
     public void TestSignUpWithBlankFieldsPropertyAdding() {
 
         paymentsHelper.addPropertyHelper.pressAddYourListingNotLoggedUser();

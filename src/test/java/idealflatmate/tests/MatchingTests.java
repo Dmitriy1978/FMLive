@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class MatchingTests extends TestBase {
 
-    @Test
+   // @Test
     public void CompleteMatchingFromMenuWithNewUserWithVerifyingPercent() {
         authorizationHelper.clickJoinFreeButton();
         //authorizationHelper.clickSignUpButtonInForm();
@@ -55,7 +55,7 @@ public class MatchingTests extends TestBase {
     }
 
 
-    @Test
+ //   @Test
     public void StartMatchingOnFMSearchPage() {
         authorizationHelper.goToFMpage();
         authorizationHelper.clickCloseSignUpFMPage();

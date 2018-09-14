@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PaymentTests extends TestBase {
 
-    @Test
+   // @Test
     public void AbilityToSeePhone() {
         authorizationHelper.clickJoinFreeButton();
         authorizationHelper.clickSignInButtonInForm();
@@ -18,7 +18,7 @@ public class PaymentTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test
+  //  @Test
     public void GoPremiumFHPaymentOnPhone() {
         authorizationHelper.clickJoinFreeButton();
         authorizationHelper.clickSignInButtonInForm();
@@ -34,7 +34,7 @@ public class PaymentTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test
+  //  @Test
     public void GoPremiumFHPaymentOnMessage() {
         authorizationHelper.clickJoinFreeButton();
         authorizationHelper.clickSignInButtonInForm();
@@ -50,7 +50,7 @@ public class PaymentTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test (priority = 6)
+   // @Test (priority = 6)
     public void PremiumFHPaymentWorldPay() {
         authorizationHelper.goToPropertyPage();
         authorizationHelper.clickCloseSignUpFMPage();

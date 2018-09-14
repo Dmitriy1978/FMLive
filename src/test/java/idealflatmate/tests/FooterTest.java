@@ -4,63 +4,63 @@ import org.testng.annotations.Test;
 
 public class FooterTest extends TestBase {
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void footerHomeLink() {
 
         footerHelper.footerHome();
         footerHelper.verificationFooterHome();
     }
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void footerAboutUsLink() {
 
         footerHelper.footerAboutUs();
         footerHelper.verificationFooterAboutUs();
     }
 
-    @Test(priority = 1)
+   // @Test(priority = 1)
     public void footerContactLink() {
 
         footerHelper.footerContact();
         footerHelper.verificationFooterContact();
     }
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void footerPressLink() {
 
         footerHelper.footerPress();
         footerHelper.verificationFooterPress();
     }
 
-    @Test(priority = 1)
+ //   @Test(priority = 1)
     public void footerPricingLink() {
 
         footerHelper.footerPricing();
         footerHelper.verificationFooterPricing();
     }
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void footerMediaLink() {
 
         footerHelper.footerMedia();
         footerHelper.verificationFooterMedia();
     }
 
-    @Test(priority = 1)
+ //   @Test(priority = 1)
     public void footerStaySafeLink() {
 
         footerHelper.footerStaySafe();
         footerHelper.verificationFooterStaySafe();
     }
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void footerBlogLink() {
 
         footerHelper.footerBlog();
         homePageHelper.verificationFMBlog();
     }
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void footerBrowseFlatsharesLink() {
         newDriverPage();
         footerHelper.footerBrowseFlatshares();
@@ -68,14 +68,14 @@ public class FooterTest extends TestBase {
 
     }
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void footerBrowseHowItWorksLink() {
 
         footerHelper.footerHowItWorks();
         footerHelper.verificationHowItWorks();
     }
 
-    @Test(priority = 2)
+  //  @Test(priority = 2)
     public void footerBrowseTipsLink() {
         newDriverPage();
         footerHelper.footerTipsWorks();
@@ -83,7 +83,7 @@ public class FooterTest extends TestBase {
 
     }
 
-    @Test(priority = 3)
+  //  @Test(priority = 3)
     public void footerNLALink() {
         newDriverPage();
         footerHelper.footerNLAWorks();
@@ -91,7 +91,7 @@ public class FooterTest extends TestBase {
 
     }
 
-    @Test(priority = 4)
+  //  @Test(priority = 4)
     public void footerFBLink() {
         newDriverPage();
         footerHelper.footerFB();
@@ -99,7 +99,7 @@ public class FooterTest extends TestBase {
 
     }
 
-    @Test(priority = 5)
+  //  @Test(priority = 5)
     public void footerTwitterLink() {
         newDriverPage();
         footerHelper.footerTwitter();
@@ -107,7 +107,7 @@ public class FooterTest extends TestBase {
 
     }
 
-    @Test(priority = 6)
+  //  @Test(priority = 6)
     public void footerInstagramLink() {
         newDriverPage();
         footerHelper.footerInstagram();
@@ -115,7 +115,7 @@ public class FooterTest extends TestBase {
 
     }
 
-    @Test(priority = 7)
+  //  @Test(priority = 7)
     public void footerYoutubeLink() {
         newDriverPage();
         footerHelper.footerYoutube();

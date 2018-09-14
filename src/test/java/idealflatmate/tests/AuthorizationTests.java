@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class AuthorizationTests extends TestBase {
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void SuccessClassicLogInLogout() {
 
         authorizationHelper.clickJoinFreeButton();
@@ -18,7 +18,7 @@ public class AuthorizationTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void SuccessClassiclogInOnPropertyPage() {
         newDriverPage();
         authorizationHelper.goToPropertyPage();
@@ -30,7 +30,7 @@ public class AuthorizationTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test(priority = 1)
+  //  @Test(priority = 1)
     public void SuccessClassiclogInOnFMPage() {
 
         authorizationHelper.goToFMpage();
@@ -42,7 +42,7 @@ public class AuthorizationTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test(priority = 2)
+  //  @Test(priority = 2)
     public void EmailWronglogInHomePage() {
 
         authorizationHelper.clickJoinFreeButton();
@@ -52,7 +52,7 @@ public class AuthorizationTests extends TestBase {
         verificationHelper.emailWrongAlertHome();
     }
 
-    @Test
+  //  @Test
     public void PasswordWronglogInHomePage() {
 
         authorizationHelper.clickJoinFreeButton();
@@ -62,7 +62,7 @@ public class AuthorizationTests extends TestBase {
         verificationHelper.emailWrongAlertHome();
     }
 
-    @Test
+  //  @Test
     //Facebook authorization doen`t work on staging
     public void SuccessLogInViaFacebook() {
         open("https://www.idealflatmate.co.uk/");
@@ -75,7 +75,7 @@ public class AuthorizationTests extends TestBase {
         newDriverPage();
     }
 
-    @Test
+  //  @Test
     //Facebook authorization doen`t work on staging
     public void SuccessSignInViaFacebook() {
         open("https://www.idealflatmate.co.uk/");
@@ -88,7 +88,7 @@ public class AuthorizationTests extends TestBase {
         newDriverPage();
     }
 
-    @Test
+  //  @Test
     public void SuccessLogInWithMatchingFB() {
         open("https://www.idealflatmate.co.uk/");
         matchingHelper.clickHomePageMatching();
@@ -105,7 +105,7 @@ public class AuthorizationTests extends TestBase {
         newDriverPage();
     }
 
-    @Test
+  //  @Test
     public void InvalidAuthorizationWithEmptyFields() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -116,7 +116,7 @@ public class AuthorizationTests extends TestBase {
        // verificationHelper.VerificationMessagesTabIsAbsent();
     }
 
-    @Test
+  //  @Test
     public void SuccessLogInMessageProperty() {
 
         getMessageHelper().clickPropertyCardMessageUnlogged();
@@ -128,7 +128,7 @@ public class AuthorizationTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test
+ //   @Test
     public void SuccessLogInContactProperty() {
 
         getMessageHelper().clickPropertyCardFirstOnPage();
@@ -142,7 +142,7 @@ public class AuthorizationTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test
+  //  @Test
     public void SuccessLogInMessageFM() {
         newDriverPage();
         authorizationHelper.goToFMpage();
@@ -156,7 +156,7 @@ public class AuthorizationTests extends TestBase {
         authorizationHelper.logoutFromApp();
     }
 
-    @Test
+  //  @Test
     public void SuccessLogInContactFM() {
 
         authorizationHelper.goToFMpage();
@@ -170,7 +170,7 @@ public class AuthorizationTests extends TestBase {
         verificationHelper.verifyPageMessage();
         authorizationHelper.logoutFromApp();
     }
-    @Test
+ //   @Test
     public void SuccessLogInPhoneReveal() {
 
         getMessageHelper().clickPropertyCardFirstOnPage();

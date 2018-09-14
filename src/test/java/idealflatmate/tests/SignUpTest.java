@@ -7,7 +7,15 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class SignUpTest extends TestBase {
 
-    @Test (priority = 1)
+    @Test (priority = 2)
+    //verifying site is ok
+
+    public void siteIsLive() {
+
+        verificationHelper.siteIsLive();
+    }
+
+    //@Test (priority = 1)
     public void headerRoomSignUpHomePage() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -49,7 +57,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.verificationUserNoNameOnHomePage("Ronald");
     }
 
-    @Test (priority = 2)
+   // @Test (priority = 2)
     public void headerFMSignUpHomePage() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -82,7 +90,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.verificationUserNoNameOnHomePage("Ronald");
     }
 
-    @Test (priority = 3)
+  //  @Test (priority = 3)
     public void headerSignUpWithExistingEmail() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -98,7 +106,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.emailAlreadyExistedAlert();
      }
 
-    @Test (priority = 4)
+   // @Test (priority = 4)
     public void headerSignUpWithBlankRequiredFieldsYourInf() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -114,7 +122,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.passwordBlankAlert();
 
     }
-    @Test (priority = 5)
+   // @Test (priority = 5)
     public void headerSignUpWithBlankRequiredFieldsMoreAboutYou() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -130,7 +138,7 @@ public class SignUpTest extends TestBase {
         signUpHelper.clickYourInformationContinue();
         verificationHelper.dateMonthYearPhoneOccupationBlankError();
     }
-    @Test (priority = 2)
+   // @Test (priority = 2)
     public void headerSignUpWithBlankRequiredFieldsLocation() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -156,7 +164,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.checkLocationBlank();
     }
 
-    @Test (priority = 2)
+   // @Test (priority = 2)
     public void headerSignUpWithBlankRequiredFieldsBudget() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
@@ -186,7 +194,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.verificationUserNoNameOnHomePage("Ronald");
     }
 
-    @Test (priority = 2)
+   // @Test (priority = 2)
     //Facebook authorization doen`t work on staging
 
     public void headerSignUpViaFacebook() {
@@ -226,7 +234,7 @@ public class SignUpTest extends TestBase {
         newDriverPage();
     }
 
-    @Test (priority = 2)
+   // @Test (priority = 2)
     //Facebook authorization doen`t work on staging
 
     public void SignUpViaFacebookAgeUnder18() {
@@ -331,7 +339,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.verificationUserNoNameOnHomePage("Ronald");
     }
 
-    @Test (priority = 2)
+    //@Test (priority = 2)
     public void SignUpMatchingWithRequiredFieldsFMRoom() {
         newDriverPage();
         matchingHelper.clickHomePageMatching();
@@ -389,7 +397,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.verificationUserNoNameOnHomePage("Ronald");
     }
 
-    @Test (priority = 2)
+   // @Test (priority = 2)
     public void SignUpMatchingWithRequiredFieldsFMRoomSearchFM() {
         newDriverPage();
         matchingHelper.clickHomePageMatching();
@@ -448,7 +456,7 @@ public class SignUpTest extends TestBase {
     }
 
 
-    @Test (priority = 1)
+    //@Test (priority = 1)
     public void SignUpWithMatchingWithBlankRequiredFields() {
         newDriverPage();
         matchingHelper.clickHomePageMatching();
@@ -487,7 +495,7 @@ public class SignUpTest extends TestBase {
     }
 
 
-    @Test (priority = 2)
+  //  @Test (priority = 2)
     public void popupRoomSignUpHomePage() {
         newDriverPage();
         authorizationHelper.goToPropertyPage();
@@ -528,7 +536,7 @@ public class SignUpTest extends TestBase {
     }
 
 
-    @Test (priority = 3)
+  //  @Test (priority = 3)
     public void popupSignUpWithExistingEmail() {
         newDriverPage();
         authorizationHelper.goToFMpage();
@@ -541,7 +549,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.emailAlreadyExistedAlert();
     }
 
-    @Test (priority = 4)
+    //@Test (priority = 4)
     public void popupSignUpWithBlankRequiredFields() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
