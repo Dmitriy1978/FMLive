@@ -15,7 +15,7 @@ public class SignUpTest extends TestBase {
         verificationHelper.siteIsLive();
     }
 
-    //@Test (priority = 1)
+    @Test (priority = 1)
     public void headerRoomSignUpHomePage() {
         newDriverPage();
         authorizationHelper.clickJoinFreeButton();
